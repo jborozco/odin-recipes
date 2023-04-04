@@ -22,6 +22,11 @@ div {
     display: block;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .container {
     width: 700px;
     height: Auto;
@@ -30,6 +35,9 @@ div {
     border-radius: 10px;
     position: relative;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+    background-image: url(img/bg-parchemin.jpg);
+    background-size: cover;
+    background-position: bottom center;
 }
 
 .profile-pic {
@@ -93,7 +101,8 @@ li {
 
 }
 
-li a {
+li a,
+p {
     font-family: 'UnifrakturCook', cursive;
     color: #1b1b22;
     font-size: 24px;
