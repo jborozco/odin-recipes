@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    background-image: url(img/bg.gif);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    background-repeat: repeat;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    width: 700px;
+    height: Auto;
+    margin: 120px auto;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.profile-pic {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    background-image: url(img/odin-pic.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.content {
+    padding: 40px;
+    background-image: url(img/bg-parchemin.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-color: #755a58;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.profile-pic img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'UnifrakturCook', cursive;
+    text-align: center;
+    font-size: 152px;
+    line-height: 142px;
+    margin: 120px 0 40px 0;
+    color: #f7eca1;
+    text-shadow: 2px 0px 8px #755a58;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    font-family: 'UnifrakturCook', cursive;
+    width: 100%;
+
+}
+
+li a {
+    font-family: 'UnifrakturCook', cursive;
+    color: #1b1b22;
+    font-size: 24px;
+    padding: 16px 0;
+    display: block;
+    text-align: center;
+}
+
+li:hover a {
+    text-shadow: 2px 0px 20px #7f2310;
+    color: #f7eca1;
+}
